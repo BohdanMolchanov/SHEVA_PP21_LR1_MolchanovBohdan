@@ -1,11 +1,19 @@
 {
-  "name": "js",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "My first portfolio",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BohdanMolchanov/SHEVA_PP21_LR1_MolchanovBohdan.git"
+  },
+  "author": "Molchanov Bohdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BohdanMolchanov/SHEVA_PP21_LR1_MolchanovBohdan/issues"
+  },
+  "homepage": "https://github.com/BohdanMolchanov/SHEVA_PP21_LR1_MolchanovBohdan#readme"
 }
