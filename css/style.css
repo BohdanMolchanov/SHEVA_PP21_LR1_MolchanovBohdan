@@ -1,0 +1,255 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #dbefff;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	background-color: #ffc64c;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#menubar{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row;
+	position: sticky;
+    overflow: hidden;
+	background-color: #ffc64c;
+	border-bottom: 2px orangered solid;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+ul.navbar{
+	display: flex;
+	list-style-type: none;
+	top:0;
+	margin: 0;
+    padding: 0;
+    background-color: #f2e082; 
+}
+li{
+	border-right: 1px solid orangered;
+}
+#menubar a{
+	display: block;
+	color: black;
+	background-color: #ff7a49;
+	text-align: center;
+	padding: 20px 30px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: orange;
+}
+#menubar a:hover{
+	background-color: #ffe100;
+}
+.active{
+	background-color: red;
+}
+.headplace{
+	background-color: orangered;
+	background: url('../images/background.jpg') no-repeat center center/cover;
+	height: 15.65rem;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+
+.headplace h1{
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 2.5rem;
+}
+.headplace h2{
+	text-align: center;
+	font-size: 2rem;
+}
+.bio{
+	background-color: #ffc64c;
+	display: flex;
+	/* height: 33.3rem; */
+	border-top: 2px orangered solid;
+	color: #dbefff; 
+}
+.bio article{
+	background-color: #ff7a49;
+	flex: 1;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	padding-left: 4rem;
+	padding-right: 4rem; 
+	max-width: 50%;
+	font-size: 1.3rem; 
+	/* border-right: 2px #38fff8 solid; */
+}
+.bio article h2{
+	font-size: 2rem;
+}
+.bio div{
+	flex:1;
+	align-self: center;
+	flex-flow: column;
+	justify-content: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.bio img{
+	border-radius: 5%;
+	border: 2px #ffa947 solid;
+	display: block;
+	margin:auto;
+	
+	max-width: 70%;
+	height: auto;
+}
+
+.experience{
+	/* background: url('../images/background.jpg') no-repeat center center/cover; */
+	display: flex;
+	background-color: #ffc64c;
+	/* border-top: 2px #38fff8 solid; */
+	border-bottom: 2px orangered solid; 
+	color: #dbefff;
+	height: 33.3rem;
+}
+.experience article{
+	background-color: #ff7a49;
+	flex: 1;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	padding-left: 4rem;
+	padding-right: 4rem; 
+	max-width: 50%;
+	max-height: 43rem;
+	font-size: 1.3rem; 
+	border-right: 2px #ffa947 solid; 
+}
+.experience div{
+	/* border-right: 2px #38fff8 solid; */
+	flex:1;
+	align-self: center;
+	flex-flow: column;
+	justify-content: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.experience img{
+	display: block;
+	margin:auto;
+	max-width: 70%;
+	height: auto;
+}
+.projects{
+	background-color: orangered;
+	display: flex;
+	flex-flow: column;
+	border-bottom: 2px orangered solid; 
+	color: #dbefff;
+}
+.projects article{
+	background-color: orangered;
+	background: url('../images/background2.jpg') no-repeat center center/cover;
+	flex: 1;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	text-align: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 3rem; 
+	padding-bottom: 3rem;
+	font-size: 1.3rem; 
+	border-right: 2px orangered solid;
+	height: 22rem;
+}
+.projects article p{
+	padding-bottom: 0.6rem; 
+}
+.projects article h2{
+	font-size: 2rem;
+	padding-bottom: 0.8rem; 
+}
+
+.projects .projectlinks{
+	display: flex;
+	flex-flow: column;
+}
+.projects .projectlinks div{
+	flex: 1;
+	display: flex;
+	
+
+}
+.projects .projectlinks div{
+	flex: 1;
+	display: flex;
+	border-top: 2px orangered solid;
+	background-color: #ff7a49;
+}
+.projects .projectlinks div picture, .projects .projectlinks div figcaption, .projects .projectlinks div figure{
+	flex:1;
+	font-size: 1.7rem;
+	align-self: center;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.projects .projectlinks div picture{
+	background-color: #ffc64c;
+}
+.projects .projectlinks div picture{
+	border-right: 2px orangered solid;
+}
+
+footer{
+	background: url('../images/background2.jpg') no-repeat center center/cover;
+	display: flex;
+}
+footer .contacts{
+	flex: 1;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	line-height: 2rem;
+	max-width: 50%;
+	font-size: 1.3rem; 
+	
+}
+footer #endofsite{
+	flex:1;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+picture img{
+	display: block;
+	margin:auto;
+	max-height: 100px;
+	width: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	html{
+		font-size: 10px;
+	}
+}
